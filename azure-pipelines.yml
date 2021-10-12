@@ -9,6 +9,11 @@ trigger:
 pool:
   vmImage: 'macOS-latest'
 
+variables:
+  scheme: ''
+  sdk: 'iphoneos'
+  configuration: 'Release'
+
 steps:
 - script: echo Hello, world!
   displayName: 'Run a one-line script'
@@ -21,4 +26,6 @@ steps:
 - task: Xcode@5
   inputs:
     actions: 'build'
+    sdk: '$(sdk)'
+    scheme: '$(scheme)'
     packageApp: false
