@@ -4,8 +4,11 @@
  *  Licensed under the MIT License. See License.txt in the project root for license information.
  *--------------------------------------------------------------------------------------------*/
  
-#import <Cocoa/Cocoa.h>
+#ifdef COMMAND_LINE_UTILITY
 #import <Foundation/Foundation.h>
+#else
+#import <Cocoa/Cocoa.h>
+#endif
 
 // 'FSnd' FourCC
 #define keyFileSender                                   1179872868
