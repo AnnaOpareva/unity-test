@@ -33,3 +33,5 @@ steps:
     exportPath: '$(agent.buildDirectory)/output/$(sdk)/$(configuration)'
     packageApp: false
     archivePath: iOSBuild
+    destinationPlatformOption: 'iOS'
+
