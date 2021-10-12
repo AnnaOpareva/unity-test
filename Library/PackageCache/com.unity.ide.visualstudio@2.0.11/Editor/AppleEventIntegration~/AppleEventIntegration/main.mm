@@ -4,6 +4,7 @@
  *  Licensed under the MIT License. See License.txt in the project root for license information.
  *--------------------------------------------------------------------------------------------*/
  
+#import <Cocoa/Cocoa.h>
 #import <Foundation/Foundation.h>
 
 // 'FSnd' FourCC
