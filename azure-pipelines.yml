@@ -12,7 +12,7 @@ pool:
 variables:
   scheme: ''
   sdk: 'iphoneos'
-  configuration: 'Release'
+  configuration: 'Debug'
 
 steps:
 - script: echo Hello, world!
@@ -32,3 +32,4 @@ steps:
     xcodeVersion: 'default'
     exportPath: '$(agent.buildDirectory)/output/$(sdk)/$(configuration)'
     packageApp: false
+    archivePath: iOSBuild
