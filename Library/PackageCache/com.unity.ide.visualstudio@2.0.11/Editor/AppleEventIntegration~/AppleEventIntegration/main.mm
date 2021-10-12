@@ -7,7 +7,7 @@
 #ifdef COMMAND_LINE_UTILITY
 #import <Foundation/Foundation.h>
 #else
-#import <Cocoa/Cocoa.h>
+#import <UIKit/UIKit.h>
 #endif
 
 // 'FSnd' FourCC
