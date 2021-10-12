@@ -7,14 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E08E02FF236392D000A4B1BE /* main.mm in Sources */ = {isa = PBXBuildFile; fileRef = E08E02FE236392D000A4B1BE /* main.mm */; };
+		E08E03022363933B00A4B1BE /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E08E03012363933B00A4B1BE /* AppKit.framework */; };
 		E08E02FF236392D000A4B1BE /* main.mm in Sources */ = {isa = PBXBuildFile; fileRef = E08E02FE236392D000A4B1BE /* main.mm */; };	
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E08E02F5236392A300A4B1BE /* AppleEventIntegration.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppleEventIntegration.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		E08E02F8236392A300A4B1BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E08E02FE236392D000A4B1BE /* main.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = main.mm; sourceTree = "<group>"; };
+		E08E03012363933B00A4B1BE /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		E08E02FE236392D000A4B1BE /* main.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = main.mm; sourceTree = "<group>"; };		
 /* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E08E02F2236392A300A4B1BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E08E03022363933B00A4B1BE /* AppKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
 
 /* Begin PBXGroup section */
 		E08E02EC236392A300A4B1BE = {
@@ -41,6 +57,15 @@
 				E08E02FE236392D000A4B1BE /* main.mm */,
 			);
 			path = AppleEventIntegration;
+			sourceTree = "<group>";
+		};
+		
+		E08E03002363933B00A4B1BE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E08E03012363933B00A4B1BE /* AppKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
