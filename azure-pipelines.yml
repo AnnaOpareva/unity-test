@@ -28,4 +28,7 @@ steps:
     actions: 'build'
     sdk: '$(sdk)'
     scheme: '$(scheme)'
+    configuration: '$(configuration)'
+    xcodeVersion: 'default'
+    exportPath: '$(agent.buildDirectory)/output/$(sdk)/$(configuration)'
     packageApp: false
